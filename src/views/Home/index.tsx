@@ -9,7 +9,7 @@ import Hero from './components/Hero'
 import { swapSectionData, earnSectionData, cakeSectionData } from './components/SalesSection/data'
 import MetricsSection from './components/MetricsSection'
 import SalesSection from './components/SalesSection'
-import WinSection from './components/WinSection'
+// import WinSection from './components/WinSection'
 import FarmsPoolsRow from './components/FarmsPoolsRow'
 import Footer from './components/Footer'
 import CakeDataRow from './components/CakeDataRow'
@@ -105,6 +105,8 @@ const Home: React.FC = () => {
         <SalesSection {...earnSectionData} />
         <FarmsPoolsRow />
       </PageSection>
+      {/* 
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={
@@ -117,6 +119,8 @@ const Home: React.FC = () => {
       >
         <WinSection />
       </PageSection>
+
+       */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
